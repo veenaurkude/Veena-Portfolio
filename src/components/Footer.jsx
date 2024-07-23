@@ -16,6 +16,7 @@ const Footer = () => {
           </a>{" "}
           - ALL RIGHTS RESERVED.
         </p>
+        
         <nav className="flex flex-wrap items-center text-base justify-center">
           <a
             href="https://www.linkedin.com/in/veena-urkude-80b0a7210/"
