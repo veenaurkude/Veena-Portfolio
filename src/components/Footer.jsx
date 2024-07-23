@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="container mx-auto p-5 flex flex-col md:flex-row items-center justify-between">
         <p className="mb-4 md:mb-0">
           &copy; COPYRIGHT 2024.{" "}
-          <a href="#" className="hover:text-white">
+          <a href="https://veenaurkude.netlify.app/" className="hover:text-white">
             Veena Urkude
           </a>{" "}
           - ALL RIGHTS RESERVED.
