@@ -1,4 +1,5 @@
 
+
 import React from "react";
 import { CodeBracketIcon } from "@heroicons/react/24/solid";
 import { projects } from "../data";
@@ -8,19 +9,19 @@ const Projects = () => {
     <section id="projects" className="text-gray-400 bg-gray-800 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
-          <CodeBracketIcon className="mx-auto inline-block w-10 mb-4" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 ">
+          <CodeBracketIcon className="mx-auto inline-block w-10 mb-4 text-gray-400" />
+          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Websites I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-          These projects demonstrate my expertise with practical examples of some of my work, including brief descriptions and links to code repositories and live demos.
+            These projects demonstrate my expertise with practical examples of some of my work, including brief descriptions and links to code repositories and live demos.
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-6 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-6">
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-gray-900 rounded-lg overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105 "
+              className="bg-gray-900 rounded-lg overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105"
             >
               <img
                 src={project.image}
@@ -34,15 +35,15 @@ const Projects = () => {
                 <h3 className="text-indigo-400 mb-3">{project.subtitle}</h3>
                 <p className="leading-relaxed mb-3 text-justify">{project.description}</p>
                 <p className="leading-relaxed mb-3 text-justify">{project.tech}</p>
-                <div className="flex justify-center">
+                <div className="flex flex-col sm:flex-row sm:justify-center sm:space-x-4">
                   <a
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-primary bg-gray-800 hover:bg-gray-700 text-gray-400 hover:text-gray-300 font-bold py-2 px-4 rounded inline-flex items-center cursor-pointer"
+                    className="btn btn-primary bg-gray-800 hover:bg-gray-700 text-gray-400 hover:text-gray-300 font-bold py-2 px-4 rounded mb-2 sm:mb-0"
                   >
                     <svg
-                      className="w-4 h-4 mr-2"
+                      className="w-4 h-4 mr-2 inline-block"
                       viewBox="0 0 24 24"
                       fill="currentColor"
                       xmlns="http://www.w3.org/2000/svg"
@@ -67,10 +68,10 @@ const Projects = () => {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-primary bg-gray-800 hover:bg-gray-700 text-gray-400 hover:text-gray-300 font-bold py-2 px-4 rounded inline-flex items-center ml-4 cursor-pointer"
+                    className="btn btn-primary bg-gray-800 hover:bg-gray-700 text-gray-400 hover:text-gray-300 font-bold py-2 px-4 rounded"
                   >
                     <svg
-                      className="w-4 h-4 mr-2"
+                      className="w-4 h-4 mr-2 inline-block"
                       viewBox="0 0 16 16"
                       fill="currentColor"
                       xmlns="http://www.w3.org/2000/svg"

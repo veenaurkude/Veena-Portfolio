@@ -67,7 +67,7 @@ export const projects = [
     title: "Hotel Booking",
     // subtitle: "MERN Stack",
     description:
-      "Developed a comprehensive Hotel Booking System designed to provide users with a seamless experience for searching, booking, and managing hotel reservations. The application features user-friendly interfaces.",
+      "Developed a comprehensive Hotel Booking System designed to provide users with a seamless experience for searching, booking, and managing hotel reservations.",
 
       tech: "Tech Stack Used: HTML, CSS, JavaScript, React, Material UI.",  
     image: hotelImg,
