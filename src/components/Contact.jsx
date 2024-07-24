@@ -24,11 +24,12 @@ const Contact = () => {
       .join('&');
 
     try {
-      await fetch('/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: encodedData
-      });
+      // await fetch('/', {
+      //   method: 'POST',
+      //   headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      //   body: encodedData
+      // });
+      
       // Redirect to success page or display success message
       alert('Form submission successful!');
       setFormData({
