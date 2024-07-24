@@ -47,14 +47,28 @@ const Navbar = () => {
               <span className="block h-0.5 bg-white absolute bottom-0 left-0 w-full scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300 ease-out"></span>
             </a>
           </nav>
-          <div className="w-full flex justify-center mt-4 md:mt-0 ">
+          {/* <div className="w-full flex justify-center mt-4 md:mt-0 ">
             <a
               href="https://drive.google.com/file/d/1cTtyn_j9m9Ed2eUDlkjUFL59CRk2qRl6/view?usp=sharing" target='_blank'
               className="inline-flex text-center items-center bg-gray-700 hover:bg-sky-500/50 border-0 py-1 px-3 focus:outline-none rounded text-base hover:text-white w-full text-center md:w-auto md:ml-auto">
               DOWNLOAD RESUME
               <ArrowDownIcon className="w-4 h-4 ml-1" />
             </a>
-          </div>
+          </div> */}
+
+<div className="w-full flex justify-center mt-4 md:mt-0">
+      <a
+        href="https://drive.google.com/file/d/1cTtyn_j9m9Ed2eUDlkjUFL59CRk2qRl6/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center bg-gray-700 hover:bg-sky-500/50 border-0 py-1 px-3 focus:outline-none rounded text-base text-center hover:text-white w-full md:w-auto justify-center"
+      >
+        <span className="flex items-center">
+          DOWNLOAD RESUME
+          <ArrowDownIcon className="w-4 h-4 ml-2" />
+        </span>
+      </a>
+    </div>
         </div>
       </div>
     </header>
