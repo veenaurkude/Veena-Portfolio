@@ -1,7 +1,7 @@
 
 
 import React, { useState } from 'react';
-import { ArrowDownIcon, Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid"; // ArrowDownIcon
 import VeenaLogo from "../assets/VLogo.png";
 
 const Navbar = () => {
@@ -58,14 +58,14 @@ const Navbar = () => {
 
 <div className="w-full flex justify-center mt-4 md:mt-0">
       <a
-        href="https://drive.google.com/file/d/1cTtyn_j9m9Ed2eUDlkjUFL59CRk2qRl6/view?usp=sharing"
+        href="https://drive.google.com/file/d/1URsvrzqDjJyk4L_-jqQFIb95A2EomNHG/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center bg-gray-700 hover:bg-sky-500/50 border-0 py-1 px-3 focus:outline-none rounded text-base text-center hover:text-white w-full md:w-auto justify-center"
       >
         <span className="flex items-center">
-          DOWNLOAD RESUME
-          <ArrowDownIcon className="w-4 h-4 ml-2" />
+          VIEW RESUME
+          {/* <ArrowDownIcon className="w-4 h-4 ml-2" /> */}
         </span>
       </a>
     </div>
