@@ -58,7 +58,7 @@ const Navbar = () => {
 
 <div className="w-full flex justify-center mt-4 md:mt-0">
       <a
-        href="https://drive.google.com/file/d/1URsvrzqDjJyk4L_-jqQFIb95A2EomNHG/view?usp=sharing"
+        href="https://drive.google.com/file/d/1b9VuYnePnuRrRp-L6a2WhQiUl8F2y2DZ/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center bg-gray-700 hover:bg-sky-500/50 border-0 py-1 px-3 focus:outline-none rounded text-base text-center hover:text-white w-full md:w-auto justify-center"

@@ -16,6 +16,7 @@ import quizImage from './assets/projects/quiz.png';
 import gymImg from './assets/projects/gym.png';
 import surfacesImg from './assets/projects/surfaces.png';
 import hotelImg from './assets/projects/hotel.png';
+import todoImg from './assets/projects/todo.png';
 
 export const skills = [
   { skill: "HTML", image: htmlImg },
@@ -33,16 +34,16 @@ export const skills = [
 ];
 
 export const projects = [
-  {
-    title: "Surfaces - Modular Kitchen (Live)",
-    // subtitle: "React and Firebase",
-    description:
-      "Project based on manufacturing designer and furniture for residential & commercial segments. Responsible for creating & overall design of the website that users see and interact with, including layout, graphics, and text.",
-      tech: "Tech Stack Used: HTML, CSS, Bootstrap, PHP.",
-      image: surfacesImg,
-    link: "http://surfacesworld.com/",
-    github: "https://github.com/veenaurkude/surfaces",
-  },
+  // {
+  //   title: "Surfaces - Modular Kitchen (Live)",
+  //   // subtitle: "React and Firebase",
+  //   description:
+  //     "Project based on manufacturing designer and furniture for residential & commercial segments. Responsible for creating & overall design of the website that users see and interact with, including layout, graphics, and text.",
+  //     tech: "Tech Stack Used: HTML, CSS, Bootstrap, PHP.",
+  //     image: surfacesImg,
+  //   link: "http://surfacesworld.com/",
+  //   github: "https://github.com/veenaurkude/surfaces",
+  // },
   {
     title: "Gym Website",
     // subtitle: "MERN Stack",
@@ -62,6 +63,16 @@ export const projects = [
     image: quizImage,
     link: "https://newquizapplication.netlify.app/",
     github: "https://github.com/veenaurkude/Quiz-App",
+  },
+  {
+    title: "To Do App",
+    // subtitle: "React and Firebase",
+    description:
+      "A feature-rich To-Do application to streamline task management and enhance user experience implementing features like task prioritization (high, medium, low), status-based filtering, and bulk task deletion.",
+      tech: "Tech Stack Used: JsvaScript, React, Tailwind CSS, HTML, CSS",
+      image: todoImg,
+    link: "https://todolistapp-dark.netlify.app/",
+    github: "https://github.com/veenaurkude/To-Do-App",
   },
   {
     title: "Hotel Booking",
